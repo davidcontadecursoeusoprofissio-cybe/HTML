@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(213, 17, 128);
+    position: relative;
+    left: 500px;
+    top: 10px;
+    text-shadow: 2px 2px 5px gray;
+}
+input {
+    background-color: rgb(192, 121, 210);
+    color: rgb(213, 17, 128);
+    position: relative;
+    left: 420px;
+    top: 10px;
+    width: 220px;
+    height: 30px;
+    border-radius: 5%;
+    border: 2px solid rgb(9, 101, 12);
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus {
+    border: 2px solid rgb(213, 17, 128);
+    box-shadow: 0 0 8px rgb(213, 17, 128);
+}
+button {
+    background-color: rgb(75, 18, 155);
+    position: relative;
+    top: 10px;
+    left: 420px;
+    width: 130px;
+    height: 30px;
+    color: rgb(213, 17, 128);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+button {
+    transition: 0.3s;
+}
+
+button:active {
+    box-shadow: 0 0 25px rgb(213, 17, 128),
+                0 0 45px rgb(213, 17, 128);
+    transform: scale(0.95);
+}
