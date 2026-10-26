@@ -21,5 +21,5 @@ if(idade >= 18){
 }
 else
 {
-    console.log("Você é menor de idade, espere mais ou menos chegar a:",18-idade)
+    console.log("Você é menor de idade",",Falta ",18-idade,"anos para você ser de maior:",nome)
 }
