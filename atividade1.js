@@ -2,10 +2,10 @@ console.log("Olá, adicione seu produto.")
 
 let produto = "Camisa"
 
-let valor = 2.50
+let valor = 1.99
 
 
-if(valor <= 1.99)
+if(valor <= 2.00)
 {
     console.log("Produto cadastrado com sucesso.","Produto:",produto)
 }
