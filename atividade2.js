@@ -1,6 +1,6 @@
 let produto =  "camisa"
 
-let valor = 230
+let valor = 2300
 let valorDesconto = valor *0.85 //valor pago com o desconto 4
 //let valorDesconto = valor *0.15 =34.5 desconto 4
 
