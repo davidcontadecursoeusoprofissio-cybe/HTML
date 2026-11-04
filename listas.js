@@ -6,7 +6,7 @@ const filme = [ "rei leão", "homem aranha", "titanic"]
 //console.log(filme[0]); um unico elemento 0,1,2
 //console.log(filme[0]);
 /////////////////////////////////////////////////////////
-filme.push("Vingadores")//novos valores para lista,mais de um valor "Viga","Viga"
+filme.push("Vingadores")//novos valores para lista,mais de um valor ("Viga","Viga")
 console.log("Nova lista",filme);
 ////////////////////////////////////////////////////////
 filme.pop()//tira o valor final da lista
