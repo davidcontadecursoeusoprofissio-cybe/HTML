@@ -13,13 +13,12 @@ filme.pop()//tira o valor final da lista
 console.log("Nova lista depois do pop",filme)
 //////////////////////////////////////////////////////
 //Função includes, ela permite eu verificar se existe um valor na lista, junto com if e else
-filme.includes("homem aranha")
+//filme.includes("homem aranha")
 //Sistema de busca
-
 //let palavra ="Dragon ball"
 let palavra ="homem aranha"
 if(filme.includes(palavra)){
-    console.log("Seu filme")
+    console.log("Seu filme esta aqui:",filme[1])
 }
 else{
     console.log("Não tem esse filme")
