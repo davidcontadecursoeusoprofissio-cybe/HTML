@@ -21,3 +21,7 @@ async function Buscaseries(){
     container.innerHTML = card.join("")
 }
 Buscaseries()
+
+
+ //obseto dentro do outro, não uma lista dentro da outra
+  //<p>Tempo da serie:${item.schedule.time}</p> 
