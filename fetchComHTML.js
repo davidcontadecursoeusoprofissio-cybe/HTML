@@ -11,7 +11,10 @@ async function Buscaseries(){
         return `
         <div>
         <h1>Nome da Serie:${item.name}</h1>
-        <p>Sinopse da serie:${item.summary}</p>       
+        <p>Sinopse da serie:${item.summary}</p> 
+        <p>Tempo da serie:${item.schedule.time}</p> 
+        <p>Data da serie:${item.premiered}</p>
+        <p>Idioma da serie:${item.language}</p>     
         </div>    
         `
     })
