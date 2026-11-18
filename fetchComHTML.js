@@ -28,8 +28,7 @@ Buscaseries()
 //obseto dentro do outro, não uma lista dentro da outra
 //<p>Tempo da serie:${item.schedule.time}</p> 
 
-
-
+//try pode usar catch
 
 
 

@@ -26,7 +26,7 @@ Buscatime()
 //api que começa com obseto {}
 
 
-
+//try pode usar catch
 
 
 
