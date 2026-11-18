@@ -3,7 +3,9 @@ let url = "https://www.thesportsdb.com/api/v1/json/123/search_all_teams.php?l=Br
 
 
 async function Buscatime(){
-    const resposta = await fetch(url)
+
+    try{
+            const resposta = await fetch(url)
     const dados = await resposta.json()
 
     dados.teams.map(function(time){
@@ -13,6 +15,12 @@ async function Buscatime(){
 
 
     })
+
+    }
+    catch{
+        console.log("API fora do ar")
+    }
+
 }
 Buscatime()
 //api que começa com obseto {}
