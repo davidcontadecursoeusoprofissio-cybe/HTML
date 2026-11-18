@@ -23,8 +23,8 @@ async function Buscatime(){
 
 }
 Buscatime()
-//api que começa com obseto {}
-
+//api que começa com obseto {} dados.teams.map = isss teams é da api= teams 
+//[] dados.map que começa com lista
 
 //try pode usar catch
 
